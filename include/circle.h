@@ -25,7 +25,7 @@ class Circle {
         }
     }
 
-public:
+ public:
     Circle() = default;
     explicit Circle(double radius) noexcept {
         assert(radius > 0.0);
